@@ -1,13 +1,3 @@
 [build]
-  publish = "public"
-  functions = "netlify/functions"
-
-[[headers]]
-  for = "/*.html"
-  [headers.values]
-    Cache-Control = "no-cache"
-
-[[headers]]
-  for = "/app.js"
-  [headers.values]
-    Cache-Control = "no-cache"
+  publish = "platepilot/public"
+  functions = "platepilot/netlify/functions"
